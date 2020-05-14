@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size : 20px;
+  text-align: center;
+  color:white;
+  background-image: url("flower.jpg");
+  
+  /* Full height */
+  height: 50%; 
+  
+}
+
+.header1 {
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+   background-image: url("glass.jpg");
+   height: 50%; 
+}
+
+.header h1 {
+ font-family: Georgia;
+  font-size: 70px;
+  font-style:oblique;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 30px;
+  text-align: center;
+  background: black;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #a4c639;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Beautiful in white</h1>
+  <p>..The day that i'll cherish forever..</p>
+</div>
+
+<div class="topnav">
+  <a href="HOME.html">Home</a>
+  <a href="ABOUT ME.html">About</a>
+  <a href="GALLERY.html">Gallery</a>
+  <a href="comment.html">Comment</a>
+</div>
+<br>
+<div class="header1">
+  <h1>MY DREAM WEDDING DRESS</h1>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="3.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="14.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="8.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+<div class="header1">
+  <h1>MY DREAM WEDDING SHOES</h1>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="22.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="27.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="24.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>BEAUTIFUL IN WHITE OFFICIAL VIDEO</h2>
+      <h5>By Shane Filan, Jul 6, 2018</h5>
+      <div class="fakeimg" style="height:300px;">
+	  <video width = "360" height ="240" controls>
+	  <source src = "video.mp4" type = "video/mp4">
+	  <source src = "video.ogg" type = "video/ogg">
+	  </video>
+	  </div>
+      <p>It was a popular wedding song among asians.</p>
+      <p>"Beautiful in white" is a song recorded by Irish singer-songwriter Shane Filan from his third studio album, Love Always(2017). </p>
+    </div>
+    <div class="card">
+      <h2>BEAUTIFUL IN WHITE AUDIO</h2>
+      <h5>By Shane Filan, Jul 6, 2018</h5>
+      <div class="fakeimg" style="height:100px;">
+	  <audio controls>
+		<source src="audio.mp3" />
+		</audio>
+    	</div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Contact</h2>
+      <div class="fakeimg" style="height:100px;">
+	  <a href="https://wa.me/0179830377" class="fa fa-whatsapp"></a>
+	  </div>
+    </div>
+    <div class="card">
+      <h3>My Favourite Musics</h3>
+      <div class="fakeimg">
+	  <center>
+	  <audio controls>
+		<source src="audio1.mp3">
+		</audio>
+		<p>Fall in love-Youngjae GOT7</p></div><br>
+		</center>
+      <div class="fakeimg">
+	  <audio controls>
+		<source src="audio3.mp3" />
+		</audio>
+		<p>Love You Better-GOT7</p>
+	  </div><br>
+      <div class="fakeimg">
+	  
+	 <audio controls>
+		<source src="audio2.mp3" />
+		</audio>
+		<p>Not By The Moon-GOT7</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <a href="http://instagram.com/alisx_" class="fa fa-instagram"></a>
+	  <a href="http://twitter.com/jaebboo" class="fa fa-twitter"></a>
+	  
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<a href="http://facebook.com" class="fa fa-facebook"></a>
+<a href="http://twitter.com" class="fa fa-twitter"></a>
+<a href="http://google.com" class="fa fa-google"></a>
+<a href="http://whatsapp.com" class="fa fa-whatsapp"></a>
+<a href="http://youtube.com" class="fa fa-youtube"></a>
+<a href="http://instagram.com" class="fa fa-instagram"></a>
+
+		
+</div>
+
+
+</body>
+</html>
